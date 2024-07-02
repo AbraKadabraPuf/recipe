@@ -1,0 +1,263 @@
+body {
+	background-color: hsl(30, 54%, 90%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+	/*height: 100%;*/
+
+}
+
+.card {
+	background-color: hsl(0, 0%, 100%);
+	max-width: 740px;
+	min-width: 375px;
+	/*height: 100%;&*/
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	justify-content: center;
+	border-radius: 25px;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.omelet {
+	padding: 35px 35px 0px 35px;
+
+}
+
+.omelet img {
+	width: 100%;
+	height: 100%;
+	border-radius: 12.5px;
+}
+
+h1 {
+	font-family: Young Serif, sans-serif;
+	font-weight: 400;
+	font-size: 40px;
+	color: hsl(24, 5%, 18%);
+	margin-bottom: 0px;
+	padding: 0px 35px 0px 35px;
+}
+
+.describe {
+	color: hsl(30, 10%, 34%);
+	font-family: Outfit, sans-serif;
+	padding: 0px 35px 25px 35px;
+}
+/*параметры контейнера preparation-time*/
+.preparation-time {
+	background-color: hsl(330, 100%, 98%);
+	border-radius: 10px;
+	margin: 0px 35px 0px 35px;
+}
+
+.preparation-time h3 {
+	color: hsl(332, 51%, 32%);
+	padding: 0 0 0 25px;
+	font-family: Outfit, sans-serif;
+}
+
+.preparation-time-list p {
+	/*position: relative; /* без этого параметра не отображаются точки перед строками*/
+	font-family: Outfit, sans-serif;
+	color: hsl(30, 10%, 34%);
+	
+}
+
+.preparation-time-list p::before {
+	content: '•';
+	position: absolute;
+	/*left: 5px;*/
+	margin: 0 0 0 30px;
+	color: hsl(332, 51%, 32%);
+}
+
+.preparation-time-list span {
+	font-weight: 700;
+	font-family: Outfit, sans-serif;
+	padding: 0 0 0 60px;
+}
+
+
+
+.titles {
+	color: hsl(14, 45%, 36%);
+	font-weight: 400;
+	font-size: 28px;
+	font-family: Young serif, sans-serif;
+	padding: 0px;
+	margin: 20px 35px 25px 35px;
+}
+
+.ingredients-list {
+	position: relative;
+	padding-left: 35px;
+	margin: 0px 35px 25px 35px;
+	color: hsl(30, 10%, 34%);
+	font-family: Outfit, sans-serif;
+}
+
+.ingredients-list p::before {
+	content: '•';
+	position: absolute;
+	left: 5px;
+	color: hsl(14, 45%, 36%);
+}
+
+.line {
+	border-bottom: 1px solid hsl(30, 18%, 87%);
+	margin: 0 25px 0 35px;
+}
+/*********************/
+.Instructions {
+	color: hsl(14, 45%, 36%);
+	font-weight: 400;
+	font-size: 28px;
+	font-family: Young serif, sans-serif;
+	padding: 0px;
+	margin: 25px 35px 25px 35px;
+}
+
+.style-number {
+	padding-left: 28px; /* Отступ слева от цифр до края контейнера*/
+	font-family: Outfit, sans-serif;
+	color: hsl(14, 45%, 36%);
+	margin: 25px 35px 35px 30px;
+}
+
+.style-number li {
+	margin-bottom: 13.5px; /*отступ между строк*/
+	padding-left: 20px; /*отступ слева от строк до цифр*/
+}
+
+.style-number li {
+	color: hsl(14, 45%, 36%); /* цвет цифр*/
+}
+
+.first-part-sentenсe {
+	color: hsl(30, 10%, 34%); /*первые слова цвет и размер*/
+	font-weight: 700;
+}
+
+.second-part-sentence {
+	color: hsl(30, 10%, 34%); /*цвет предложений*/
+	font-weight: 400;
+}
+/*ТАБЛИЦА*/
+
+.nutrition-section { /*внутри карточки создается блок с отступами от стен карточки*/
+	padding: 0 35px 35px 35px;
+}
+
+.nutrition-section h2 { /*заголовок: цвет, толщина, размер, шрифт*/
+	color: hsl(14, 45%, 36%);
+	font-weight: 400;
+	font-size: 28px;
+	font-family: Young serif, sans-serif;
+}
+
+.sentence { /*предложение после заголовка, цвет, шрифт */
+	color: hsl(30, 10%, 34%);
+	font-family: Outfit, sans-serif;
+}
+
+.nutrition-table {
+	width: 100%; /*параметры таблицы: ширина - 100% от головного блока*/
+	border-collapse: collapse; /*соединение границы*/
+}
+
+.nutrition-table td {
+	padding: 15px 0px 10px 25px; /*отступы для всех строк в таблице*/
+	font-family: Outfit, sans-serif; /*общий шрифт для всех строк в таблице*/
+}
+
+.nutrition-table .kind-food {
+	font-weight: 400;	/*толщина шрифта вида еды*/
+	color: hsl(30, 10%, 34%); /*цвета шрифта вида еды*/
+}
+
+.nutrition-table .value {
+	font-weight: 700; /*толщина value*/
+	color: hsl(14, 45%, 36%); /*цвет value*/
+}
+
+.nutrition-table .line-bottom { /*подчеркивание для трех элементов, у которых есть два класса*/
+	border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+
+/********
+.nutrition {
+	color: hsl(14, 45%, 36%);
+	font-weight: 400;
+	font-size: 28px;
+	font-family: Young serif, sans-serif;
+	padding: 0px;
+	margin: 25px 35px 25px 35px;
+}
+
+.sentence {
+	color: hsl(30, 10%, 34%);
+	font-weight: 400;
+	font-family: Outfit, sans-serif;
+	margin: 25px 35px 0px 35px;
+}
+
+
+.nutrition-table {
+	font-family: Outfit, sans-serif;
+	margin: 25px 35px 25px 35px;
+	border-collapse: collapse;
+	width: 90%;
+	padding: 25px;
+}
+.kind-food {
+	color: hsl(30, 10%, 34%);
+	padding: 10px 0px 10px 65px;
+}
+.value {
+	font-weight: 700;
+	color: hsl(14, 45%, 36%);
+}
+.line-bottom {
+	border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+*******/
+@media (max-width: 375px) {
+	.omelet {
+		padding: 0;
+
+	}
+	.card,
+	.omelet img {
+		border-radius: 0;
+		padding: 0;
+	}
+
+
+}
+/*
+ЦВЕТА ШРИФТОВ
+- Nutmeg: hsl(14, 45%, 36%) Три нижних заголовка и маркированный список
+- Dark Raspberry: hsl(332, 51%, 32%) ЗАГОЛОВОК ВРЕМЕНИ
+
+### Neutral
+
+- White: hsl(0, 0%, 100%) БЕК КАРТОЧКИ
+- Rose White: hsl(330, 100%, 98%) БЕК ВРЕМЕНИ
+- Eggshell: hsl(30, 54%, 90%) БЕК СТРАНИЦЫ
+- Light Grey: hsl(30, 18%, 87%)
+- Wenge Brown: hsl(30, 10%, 34%) ВЕСЬ ТЕКСТ
+- Dark Charcoal: hsl(24, 5%, 18%) ГЛАВНЫЙ ЗАГОЛОВОК
+
+- Family: [Young Serif](https://fonts.google.com/specimen/Young+Serif)
+- Weights: 400
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 600, 700
+*/
