@@ -8,7 +8,7 @@
 
 Предварительный просмотр:
 
-![Des](<Снимок экрана от 2024-07-04 13-50-49.png>)
+![Версия для ПК:](<https://github.com/AbraKadabraPuf/recipe/blob/main/images/desktop_version.png>)
 
 ## Как использовать:
 
