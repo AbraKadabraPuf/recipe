@@ -29,5 +29,5 @@ CSS
 
 AbraKadabraPuf
 
-Посетить репозиторий [AbraKadabraPuf](https://github.com/AbraKadabraPuf)
+Посетить репозиторий github [AbraKadabraPuf](https://github.com/AbraKadabraPuf)
 
