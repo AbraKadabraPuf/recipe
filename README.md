@@ -21,8 +21,8 @@ git clone https://github.com/AbraKadabraPuf/recipe.git
 
 ## Используемые технологии:
 
--HTML
--CSS
+- HTML
+- CSS
 
 ## Статус проекта:
 > ${\textsf{\color{green}Status: Выполнен}}$
