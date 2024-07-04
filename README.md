@@ -3,7 +3,7 @@
 
 Этот проект статической страницы был разработан с использованием HTML и CSS в рамках задач, предложенных:
 
-https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm/hub
+[frontendmentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm/hub)
 
 Обзор проекта:
 Проект предполагает разработку интерфейса страницы рецептов, который будет одновременно простым и адаптивным, обеспечивая доступ как с компьютеров, так и с мобильных устройств.
