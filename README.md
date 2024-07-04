@@ -29,7 +29,5 @@ git clone https://github.com/AbraKadabraPuf/recipe.git
 
 ## Разработчик проекта:
 
-AbraKadabraPuf
-
 Посетить репозиторий github [AbraKadabraPuf](https://github.com/AbraKadabraPuf)
 
