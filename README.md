@@ -5,13 +5,12 @@
 
 ## Обзор проекта:
 Проект предполагает разработку интерфейса страницы рецептов, который будет одновременно простым и адаптивным, обеспечивая доступ как с компьютеров, так и с мобильных устройств.
+Веб версия доступна по ссылке:
+[https://abrakadabrapuf.github.io/recipe/:](https://abrakadabrapuf.github.io/recipe/)
 
 ## Предварительный просмотр
 
-1. Веб версия доступна по ссылке:
-[https://abrakadabrapuf.github.io/recipe/:](https://abrakadabrapuf.github.io/recipe/)
-
-2. Версия для ПК:
+Версия для ПК:
 ![Версия для ПК:](<https://github.com/AbraKadabraPuf/recipe/blob/main/images/desktop_version.png>)
 
 ## Как использовать:
