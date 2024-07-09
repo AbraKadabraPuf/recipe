@@ -9,7 +9,8 @@
 ## Предварительный просмотр
 
 Веб версия доступна по ссылке:
-[https://abrakadabrapuf.github.io/product_preview/:](https://abrakadabrapuf.github.io/recipe/)
+
+[https://abrakadabrapuf.github.io/recipe/:](https://abrakadabrapuf.github.io/recipe/)
 
 ![Версия для ПК:](<https://github.com/AbraKadabraPuf/recipe/blob/main/images/desktop_version.png>)
 
