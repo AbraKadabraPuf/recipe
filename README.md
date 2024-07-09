@@ -8,9 +8,10 @@
 
 ## Предварительный просмотр
 
-Веб версия доступна по ссылке:
+1. Веб версия доступна по ссылке:
 [https://abrakadabrapuf.github.io/recipe/:](https://abrakadabrapuf.github.io/recipe/)
 
+2. Версия для ПК:
 ![Версия для ПК:](<https://github.com/AbraKadabraPuf/recipe/blob/main/images/desktop_version.png>)
 
 ## Как использовать:
